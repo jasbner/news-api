@@ -1,6 +1,6 @@
 library(httr2)
 date <- Sys.Date() - 1
-req <- request("https: /newsapi.org/v2/everything") >
+req <- request("https:/newsapi.org/v2/everything") |>
   req_url_query(
     q = '`"data science"`',
     from = date,
